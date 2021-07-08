@@ -12,4 +12,4 @@ console.log(nomes);
 
 let nome2 = 'fernando';
 console.log(nome2);
-let nome2 = 'rafa';
+//let nome2 = 'rafa'; //nao permite que a variavel seja declarada mais de uma vez evitando erros no codigo!2
