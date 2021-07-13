@@ -25,7 +25,7 @@ console.log(num1+num2);//soma
 console.log(num1.toString() + num2);//concatena
 console.log(typeof num1);//o tipo continua number porem ele temporariamente vira string
 console.log(num1.toString(2));//versao binaria do numero
-console.log(num1.toFixed(2));//arrendonda e deixa 2 casas decimais
+console.log(num1.toFixed(2));//deixa 2 casas decimais
 console.log(Number.isInteger(num1));//retorna verdadeiro ou falso se o numero e inteiro ou nao
 let temp = num1*'ola';//NaN - not a number
 console.log(Number.isNaN(temp));//verdadeiro nao funciona 

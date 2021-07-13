@@ -16,4 +16,11 @@ console.log(aleatorio);
 console.log(Math.PI);
 console.log(Math.pow(2, 10));//dois elevado a 10
 console.log(2**10);//dois elevado a 10 
-console.log((2**10) * Math.PI);
+console.log((2**10) * Math.PI);//vezes pi
+let num2 = 9;
+console.log(num2 **(1/2));//raiz quadrada
+console.log(num2 **0.5);
+//em javascript pode dividir um numero por zero
+console.log(100/0)//da infinity, possui valor infinity ou seja infinito
+console.log(!!100/0)// da true pois isso e possivel pois da infinito no javascript em outras linguagens da erro\
+
