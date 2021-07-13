@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Titulo da Pagina</title>
+</head>
+<body>
+    <script>
+        let nome = prompt("Digite seu nome: ");
+        console.log(nome);
+        document.write("um texto");//escreva algo na pagina
+        //document parte do objeto window
+        document.body.innerHTML = "qualquer outra coisa";
+        document.body.innerHTML += "escrever<br />";
+        document.body.innerHTML += "escrever<br />";
+        document.body.innerHTML += "escrever<br />";
+        let nomeCompleto = prompt("Digite seu nome completo: ");
+        document.body.innerHTML = `O seu nome e: ${nomeCompleto}<br />`;
+        let nomeTamanho = nomeCompleto.length;
+    </script>
+</body>
+</html>
