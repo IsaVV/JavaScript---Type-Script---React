@@ -63,3 +63,4 @@ function setResultado (msg, isValid) {
     p.innerHTML = msg; //coloca a msg recebida dentro do html de p 
     resultado.appendChild(p);//coloca p dentro de resultado como filho 
 }
+
